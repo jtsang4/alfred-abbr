@@ -1,3 +1,3 @@
 # Alfred-Abbr
 
-A alfred workflow about abbreviations.
+An alfred workflow about abbreviations.
