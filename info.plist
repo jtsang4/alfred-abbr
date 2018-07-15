@@ -4,16 +4,18 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alfredapp.andrew.gettingstarted.scriptfilteroutput</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict/>
 	<key>createdby</key>
-	<string>Andrew Pepperrell</string>
+	<string>wtzeng</string>
 	<key>description</key>
 	<string>Alfred's script filter object is extremely powerful, and gives you control over the results displayed in Alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Script Filter - Getting Started</string>
+	<string>Alfred-Abbr</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -30,7 +32,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>abbr</string>
+				<string>ab</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -42,11 +44,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>query=$1
-
-echo -n $query
-
-./node_modules/.bin/run-node index.js "$query"</string>
+				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -87,6 +85,6 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 	<key>version</key>
 	<string>1.0</string>
 	<key>webaddress</key>
-	<string>https://www.alfredapp.com</string>
+	<string>https://github.com/wtzeng1</string>
 </dict>
 </plist>
