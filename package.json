@@ -1,0 +1,11 @@
+{
+  "name": "alfred-abbr",
+  "version": "0.0.1",
+  "description": "A alfred workflow to get abbreviation of word.",
+  "main": "index.js",
+  "author": "wtzeng <wentao_zeng1@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.7.0"
+  }
+}
