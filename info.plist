@@ -44,7 +44,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<string>./node_modules/.bin/run-node dist/index.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -77,9 +77,9 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		<key>B04445FB-C160-4028-A059-4122DCB91D0F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>90</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>200</integer>
 		</dict>
 	</dict>
 	<key>version</key>
