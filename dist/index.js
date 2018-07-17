@@ -1103,8 +1103,8 @@ var parser_7 = parser.j2xParser;
 var parser_8 = parser.parseToNimn;
 
 const API_URL = 'http://www.stands4.com/services/v2/abbr.php';
-const UID = 'uid';
-const TOKEN_ID = 'token_id';
+const UID = '6387';
+const TOKEN_ID = 'lzAD6UpYCZY9X1Hc';
 
 function genQueryURL(term, searchType, sortby) {
   const params = {
